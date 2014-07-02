@@ -1,0 +1,20 @@
+body{
+  background-color: rgb(240, 240, 240);
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+  font-family: 'Arvo', serif;
+  font-size: 50px;
+  color: #11468C;
+}
+
+a{
+  color: #5A86BF;
+  text-decoration: none;
+}
+
+a:hover{
+  opacity: 0.8;
+}
+
