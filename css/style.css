@@ -1,0 +1,28 @@
+.feature img {
+  width: 30%;
+  margin-bottom: 2em;
+}
+
+.feature {
+  color: #444444;
+  font-weight: 200;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+#footer {
+  background-color: #222;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  color: #aaaaaa;
+}
+
+#footer a {
+  color: #cccccc;
+}
+
+#footer a:hover {
+  color: white;
+}

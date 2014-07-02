@@ -7,11 +7,12 @@
 
     <title>IceMe - Dégustez une glace, maintenant !</title>
 
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
 
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -62,49 +63,85 @@
     <h1>IceMe</h1>
     <h2>Dégustez une glace</h2>
 
-    <img src="images/icon_57707/icon_57707.png" width="48">
-    <p>
-      Choisissez jusque trois parfums
-      parmi notre catalogue de <strong>1000</strong> glaces maison.
-    </p>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-md-3">
+          <div class="feature">
+            <div class="feature-picture">
+              <img src="images/icon_57707/icon_57707.png">
+            </div>
+            <p>
+              Choisissez jusque trois parfums
+              parmis notre catalogue de <strong>1000</strong> glaces maison.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="feature">
+            <img src="images/icon_29388/icon_29388.png">
+            <p>
+              L'application vous <strong>géolocalise</strong> automatiquement et vous
+              indique le temps d'attente estimé.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="feature">
+            <img src="images/icon_24755/icon_24755.png">
+            <p>
+              Un de nos supers livreurs fonce pour vous apporter votre glace,
+              qui sera <strong>préparée juste à temps</strong>.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="feature">
+            <img src="images/icon_17805/icon_17805.png">
+            <p>
+              Pas de monnaie ? Pas un problème, le paiement est <strong>automatiquement</strong>
+              débité sur votre carte bancaire.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <img src="images/icon_29388/icon_29388.png" width="48">
-    <p>
-      L'application vous <strong>géolocalise</strong> automatiquement et vous
-      indique le temps d'attente estimé.
-    </p>
-
-    <img src="images/icon_24755/icon_24755.png" width="48">
-    <p>
-      Un de nos supers livreurs fonce pour vous apporter votre glace,
-      qui sera <strong>préparée juste à temps</strong>.
-    </p>
-
-    <img src="images/icon_17805/icon_17805.png" width="48">
-    <p>
-      Pas de monnaie ? Pas un problème, le paiement est <strong>automatiquement</strong>
-      débité sur votre carte bancaire.
-    </p>
-
-    <h4>Suivez-nous</h4>
-    <ul>
-      <li>
-        <a href="https://twitter.com/iceme">Twitter</a>
-      </li>
-      <li>
-        <a href="https://facebook.com/iceme">Facebook</a>
-      </li>
-      <li>
-        <a href="https://instagram.com/iceme">Instagram</a>
-      </li>
-      <li>
-        <a href="https://youtube.com/iceme">Youtube</a>
-      </li>
-    </ul>
-
-    <p>
-      IceMe est une compagnie fictive créée dans le cadre de <a href="http://cetetejecode.fr">cetetejecode</a>.
-    </p>
+    <div id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <ul class="list-inline text-center">
+              <li>
+                <a href="https://twitter.com/iceme">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://facebook.com/iceme">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://instagram.com/iceme">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://youtube.com/iceme">
+                  <i class="fa fa-youtube"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-9">
+            <div class="footer-description text-center">
+              IceMe est une compagnie fictive créée dans le cadre de
+              <a href="http://www.cetetejecode.fr">cetetejecode.fr</a>.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
