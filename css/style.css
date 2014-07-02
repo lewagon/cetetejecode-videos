@@ -3,18 +3,18 @@ body {
   font-family: 'Open Sans';
 }
 
-footer {
+#footer {
   background-color: #222;
   padding-top: 3em;
   padding-bottom: 3em;
   color: #aaaaaa;
 }
 
-footer a {
+#footer a {
   color: #cccccc;
 }
 
-footer a:hover {
+#footer a:hover {
   color: white;
 }
 
