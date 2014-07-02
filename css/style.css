@@ -18,14 +18,25 @@ a:hover{
   opacity: 0.8;
 }
 
+/* Playing with selectors */
+
 #catch-line{
   color: brown;
   font-weight: normal;
 }
 
-.social-link{
+.feature {
+  width: 60px;
+  padding: 20px;
+  border: 1px solid grey;
+  border-radius: 50%;
+}
+
+#social-links a{
   color: orange;
 }
+
+/* Playing with box model */
 
 #teaser{
   padding: 30px 200px 30px 200px;
@@ -40,13 +51,6 @@ a:hover{
   width: 900px;
   margin-left: auto;
   margin-right: auto;
-}
-
-#teaser img {
-  width: 60px;
-  padding: 20px;
-  border: 1px solid grey;
-  border-radius: 50%;
 }
 
 
