@@ -61,6 +61,16 @@ body {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+.btn-primary {
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+}
+
+.btn-primary:hover {
+  background-color: #16a085;
+  border-color: #16a085;
+}
+
 .wrapper {
   background-image: url('../images/background/background.jpg');
   background-color: rgba(0, 0, 0, .8);
