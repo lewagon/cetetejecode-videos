@@ -35,7 +35,6 @@ body {
 
 .wrapper {
   background-image: url('../images/background/background.jpg');
-  background-color: rgba(0, 0, 0, .8);
   height: 650px;
   background-size: cover;
   padding-top: 150px;
@@ -54,7 +53,7 @@ body {
   display: inline-block;
   padding: 0.2em;
   font-size: 18px;
-  font-weight: 100;
+  font-weight: 300;
   letter-spacing: 2px;
   margin-bottom: 2em;
 }
@@ -73,7 +72,7 @@ body {
 
 .feature {
   color: #444444;
-  font-weight: 200;
+  font-weight: 300;
   letter-spacing: 1px;
 }
 
