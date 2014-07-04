@@ -26,7 +26,6 @@ a:hover{
 }
 
 .circle {
-  width: 60px;
   padding: 20px;
   border: 1px solid grey;
   border-radius: 50%;
