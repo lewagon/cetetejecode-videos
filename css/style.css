@@ -20,34 +20,34 @@ a:hover{
 
 /* Playing with selectors */
 
-#catch-line{
+#catch-line {
   color: brown;
   font-weight: normal;
 }
 
-.feature {
+.circle {
   width: 60px;
   padding: 20px;
   border: 1px solid grey;
   border-radius: 50%;
 }
 
-#social-links a{
+#social-links a {
   color: orange;
 }
 
 /* Playing with box model */
 
-#teaser{
+#teaser {
   padding: 30px 200px 30px 200px;
-  margin: 40px 0 40px 0;
+  margin: 40px 0px 40px 0;
   background-color: white;
   border: 1px solid grey;
   text-align: center;
   box-shadow: 0 0 2px black;
 }
 
-#container{
+#container {
   width: 900px;
   margin-left: auto;
   margin-right: auto;
