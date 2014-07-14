@@ -1,6 +1,7 @@
 body{
   background-image: url("../images/grid.jpg");
   font-family: 'Open Sans', sans-serif;
+  color: rgb(50, 50, 50);
 }
 
 h1{
@@ -15,5 +16,5 @@ a{
 }
 
 a:hover{
-  opacity: 0.8;
+  color: #11468C;
 }
