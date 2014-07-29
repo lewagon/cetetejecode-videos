@@ -17,6 +17,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
+
   <body>
 
     <nav class="navbar navbar-default navbar-fixed-top navbar-transparent" role="navigation">
@@ -56,97 +57,110 @@
       </div><!-- /.container-fluid -->
     </nav>
 
-
-    <div class="wrapper">
-      <div class="lead">
-        <h1>DÉGUSTEZ UNE GLACE</h1>
-        <h2>MAINTENANT TOUT DE SUITE</h2>
-        <p>
-          <a href="#" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Je veux une glace</a>
-        </p>
-      </div>
-    </div>
-
-    <!-- Modal -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-            <h4 class="modal-title" id="myModalLabel"><h3>Dites-nous en plus !</h3></h4>
-          </div>
-          <div class="modal-body">
-
-
-            <!-- YOUR WUFOO IFRAME -->
-
-
-          </div>
-        </div>
-      </div>
-    </div>
-
     <div class="vertical-spacer"></div>
 
     <div class="container">
-      <div class="row text-center">
-        <div class="col-sm-6 col-md-3">
-          <div class="feature">
-            <div class="feature-picture">
-              <img src="images/icon_57707/icon_57707.png" width="96">
-            </div>
-            <p>
-              Choisissez jusque trois parfums
-              parmis notre catalogue de <strong>1000</strong> glaces maison.
-            </p>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="feature">
-            <img src="images/icon_29388/icon_29388.png" width="96">
-            <p>
-              L'application vous <strong>géolocalise</strong> automatiquement et vous
-              indique le temps d'attente estimé.
-            </p>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="feature">
-            <img src="images/icon_24755/icon_24755.png" width="96">
-            <p>
-              Un de nos supers livreurs fonce pour vous apporter votre glace,
-              qui sera <strong>préparée juste à temps</strong>.
-            </p>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="feature">
-            <img src="images/icon_17805/icon_17805.png" width="96">
-            <p>
-              Pas de monnaie ? Pas un problème, le paiement est <strong>automatiquement</strong>
-              débité sur votre carte bancaire.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+      <h1>About us</h1>
+      <div class="row">
+        <div class="col-xs-6">
 
-    <div class="vertical-spacer"></div>
+          <div id="map"></div>
 
-    <div class="container">
-      <div class="row text-center">
+          <script type="text/javascript"
+            src="https://maps.googleapis.com/maps/api/js?key=API_KEY">
+          </script>
 
-        <h3>La newsletter de IceMe</h3>
-        <br/>
-        <!-- Begin MailChimp Signup Form -->
-        <form class="form-inline" role="form" action="YOUR MAILCHIMP LIST URL" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form">
-          <input type="email" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="email address" required>
-          <input type="submit" value="Suivez-nous" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
-        </form>
-        <!--End mc_embed_signup-->
-        <br/>
-        <p>Pour plus d'infos sur nous, c'est par <a href="about.html">ici</a> </p>
+          <script type="text/javascript">
+          var myOptions = {
+              zoom: 15,
+              center: new google.maps.LatLng(48.852937, 2.364178),
+              mapTypeId: google.maps.MapTypeId.ROADMAP,
+              styles:           [
+              {
+                  "featureType": "water",
+                  "stylers": [
+                      {
+                          "color": "#46bcec"
+                      },
+                      {
+                          "visibility": "on"
+                      }
+                  ]
+              },
+              {
+                  "featureType": "landscape",
+                  "stylers": [
+                      {
+                          "color": "#f2f2f2"
+                      }
+                  ]
+              },
+              {
+                  "featureType": "road",
+                  "stylers": [
+                      {
+                          "saturation": -100
+                      },
+                      {
+                          "lightness": 45
+                      }
+                  ]
+              },
+              {
+                  "featureType": "road.highway",
+                  "stylers": [
+                      {
+                          "visibility": "simplified"
+                      }
+                  ]
+              },
+              {
+                  "featureType": "road.arterial",
+                  "elementType": "labels.icon",
+                  "stylers": [
+                      {
+                          "visibility": "off"
+                      }
+                  ]
+              },
+              {
+                  "featureType": "administrative",
+                  "elementType": "labels.text.fill",
+                  "stylers": [
+                      {
+                          "color": "#444444"
+                      }
+                  ]
+              },
+              {
+                  "featureType": "transit",
+                  "stylers": [
+                      {
+                          "visibility": "off"
+                      }
+                  ]
+              },
+              {
+                  "featureType": "poi",
+                  "stylers": [
+                      {
+                          "visibility": "off"
+                      }
+                  ]
+              }
+          ]
+          };
 
+          var map = new google.maps.Map(document.getElementById('map'), myOptions);
+
+          </script>
+
+        </div>
+        <div class="col-xs-6">
+          <h2>ICEME</h2>
+          <p><i class="fa fa-map-marker"></i> 25 rue du petit Musc 75004 Paris</p>
+          <p><i class="fa fa-mobile-phone"></i> (+33)6 09 08 67 87</p>
+        </div>
       </div>
     </div>
 
@@ -188,8 +202,6 @@
         </div>
       </div>
     </div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   </body>
+
 </html>
